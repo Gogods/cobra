@@ -1,10 +1,8 @@
-module github.com/spf13/cobra
+module github.com/Gogods/cobra
 
-go 1.15
+go 1.19
 
 require (
-	github.com/cpuguy83/go-md2man/v2 v2.0.2
+	github.com/Gogods/pflag v0.0.0-20221115102352-9c9ef4b61b14
 	github.com/inconshreveable/mousetrap v1.0.1
-	github.com/spf13/pflag v1.0.5
-	gopkg.in/yaml.v3 v3.0.1
 )

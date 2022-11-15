@@ -27,7 +27,7 @@ import (
 	"sort"
 	"strings"
 
-	flag "github.com/spf13/pflag"
+	flag "github.com/Gogods/pflag"
 )
 
 const FlagSetByCobraAnnotation = "cobra_annotation_flag_set_by_cobra"
@@ -35,7 +35,7 @@ const FlagSetByCobraAnnotation = "cobra_annotation_flag_set_by_cobra"
 // FParseErrWhitelist configures Flag parse errors to be ignored
 type FParseErrWhitelist flag.ParseErrorsWhitelist
 
-// Structure to manage groups for commands
+// Group Structure to manage groups for commands
 type Group struct {
 	ID    string
 	Title string
