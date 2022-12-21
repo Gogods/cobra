@@ -675,7 +675,8 @@ See each sub-command's help for details on how to use the generated script.
 		Hidden:            c.CompletionOptions.HiddenDefaultCmd,
 		GroupID:           c.completionCommandGroupID,
 	}
-	c.AddCommand(completionCmd)
+	// 删除 completion命令
+	//c.AddCommand(completionCmd)
 
 	out := c.OutOrStdout()
 	noDesc := c.CompletionOptions.DisableDescriptions
